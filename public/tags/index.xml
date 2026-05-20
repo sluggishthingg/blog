@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sluggishthingg</title>
+    <link>https://bright-rolypoly-31145c.netlify.app/tags/</link>
+    <description>Recent content in Tags on Sluggishthingg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bright-rolypoly-31145c.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning</title>
+      <link>https://bright-rolypoly-31145c.netlify.app/tags/learning/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bright-rolypoly-31145c.netlify.app/tags/learning/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sluggishthingg</title>
+    <link>https://bright-rolypoly-31145c.netlify.app/posts/</link>
+    <description>Recent content in Posts on Sluggishthingg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bright-rolypoly-31145c.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://bright-rolypoly-31145c.netlify.app/posts/my-first-post/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bright-rolypoly-31145c.netlify.app/posts/my-first-post/</guid>
+      <description>&lt;p&gt;hi everybody my name is krisalyn&#xA;dsajkofdhfoiwefnqdjc;ql&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;https://bright-rolypoly-31145c.netlify.app/images/Screenshot%20From%202026-04-14%2015-17-15.png&#34; alt=&#34;Image&#34;&gt;&lt;img src=&#34;Screenshot%20From%202026-04-14%2014-20-57.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

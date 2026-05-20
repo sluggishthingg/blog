@@ -1,0 +1,31 @@
+baseURL = "https://bright-rolypoly-31145c.netlify.app"
+languageCode = "en-us"
+title = "Sluggishthingg"
+theme = "archie"
+
+[pagination]
+pagerSize = 5
+
+[params]
+mode = "auto"
+subtitle = "Learning daily. Building publicly."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/sluggishthingg"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
