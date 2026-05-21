@@ -22,14 +22,14 @@ i analyzed the question and found that the array is 1- indexed, already sorted ,
 for brute force i thought to go with nested loops and finding the target ,initializing a new array with the values {-1,-1}  and assigning the matched (i,j) values to indexes res[0],res[1] while increasing them by one place
 
 #### CODE (BRUTE FORCE)
-![](Pasted%20image%2020260521195521.png)
+![](/images/Pasted%20image%2020260521195521.png)
 
 #####  CODE OPTIMAL 
 
 THOUGHT 
 next for the optimal approach i thought why not go for 2 pointers initialize a left and a right pointer iterate it only O(N) as opposed to O(N^2)
 
-![](Screenshot%20From%202026-05-21%2019-59-00.png)
+![](/images/Screenshot%20From%202026-05-21%2019-59-00.png)
 
  ##### HASH BASED CAUSE WHY NOTT MAKE IT MORE OPTIMAL !!
 
@@ -40,7 +40,7 @@ i initialized a hashmap and used a for loop to iterate the array values then i f
 
 
 ##### CODE HASH
-![](Screenshot%20From%202026-05-21%2020-07-54.png)
+![](/images/Screenshot%20From%202026-05-21%2020-07-54.png)
 
 ## 2. LeetCode Valid Palindrome
 
@@ -50,7 +50,7 @@ THOUGHT PROCESS
 i thought first i should go with removing all the spaces along with converting them to lowercase.. I didnt know exactly how to remove the white spaces when it got those ' , : ' and other punctuation marks i referred google and got the syntax replaceAll("[^a-z0-9]","")
 
 ##### CODE
-![](Screenshot%20From%202026-05-21%2020-13-18.png)
+![](/images/Screenshot%20From%202026-05-21%2020-13-18.png)
 
 on the side note i didnt try out any optimal or better solutions for this problem .. thats for another day i guess
 
@@ -64,12 +64,12 @@ i didnt get the question first i thought to take the maximum values btw those ma
 then i found out that you gotta find the maximum area that means max heights along with max width area =height * width (-------------)
 
 ##### BRUTE CODE
-![](Screenshot%20From%202026-05-21%2020-20-34.png)
+![](/images/Screenshot%20From%202026-05-21%2020-20-34.png)
 
 THOUGHT
 for the optimal i went with two pointer approach a left and right pointer and used the greedy approach to arrive to a solution condition left =0 , right = n-1 (if left<right) left++ else (right--)
 
 ##### OPTIMAL CODE
-![](Screenshot%20From%202026-05-21%2020-26-05.png)
+![](/images/Screenshot%20From%202026-05-21%2020-26-05.png)
 
 #### THATS IT FOR TODAY THANK FOR READING------- peace outt  !!!!!----------
