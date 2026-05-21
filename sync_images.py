@@ -18,14 +18,14 @@ for filename in os.listdir(posts_dir):
             content = file.read()
 
         # Find Obsidian image embeds
-        images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
+        images = re.findall(r'!\[\[([^]]*\.png)\]\]', content)
 
         for image in images:
 
             # Replace Obsidian syntax with Hugo markdown syntax
             markdown_image = f"![Image](/images/{image.replace(' ', '%20')})"
 
-            content = content.replace(f"[[{image}]]", markdown_image)
+            content = content.replace(f"![[{image}]]", markdown_image)
 
             # Copy image to Hugo static/images
             image_source = os.path.join(attachments_dir, image)
