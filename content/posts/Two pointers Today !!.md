@@ -14,11 +14,13 @@ when i solve a problem i also look for the
 
 [LeetCode 167 – Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/?utm_source=chatgpt.com)
 
+
 THOUGHT PROCESS
 
 i analyzed the question and found that the array is 1- indexed, already sorted , similar to two sum and the output should be returned in an array format
 
  APPROACH 
+ 
 for brute force i thought to go with nested loops and finding the target ,initializing a new array with the values {-1,-1}  and assigning the matched (i,j) values to indexes res[0],res[1] while increasing them by one place
 
 #### CODE (BRUTE FORCE)
@@ -60,6 +62,7 @@ on the side note i didnt try out any optimal or better solutions for this proble
 ## 3. LeetCode Container With Most Water
 
 [LeetCode 11 – Container With Most Water](https://leetcode.com/problems/container-with-most-water/?utm_source=chatgpt.com)
+
 
 THOUGHT PROCESS
 
